@@ -58,12 +58,6 @@ class GuardaDisco extends Controller
         'poster' => 'https://img.discogs.com/yznG64lgl1AwrTi4D4U4qBFmhvk=/fit-in/450x450/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/R-8547294-1463805288-7451.jpeg.jpg'
       ],
       [
-        'title' => 'Anime Salve',
-        'author' => 'Fabrizio de Andrè',
-        'year' => 1996,
-        'poster' => 'https://lh3.googleusercontent.com/proxy/a7McbjRYoUJw0kc7MkHMyzUy8WB1G2SrP1LtnbA36Mo3gA2kQmu7ybhyvVgRYxquJYXaziUY4W5J-eMbZJA7Bhqmo0RFUprIiCVzOPYKidHU0AjXDgcWGwRRYxbaa7-_ISkSEchWMl-cGeg'
-      ],
-      [
         'title' => 'Lesbianitj',
         'author' => 'Pop X',
         'year' => 2017,

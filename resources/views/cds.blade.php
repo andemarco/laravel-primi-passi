@@ -16,13 +16,14 @@
         </header>
 
         <div class="cds-container">
+          @foreach ($data as $k => $cd )
             <div class="cd">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/51sBr4IWDwL.jpg" />
-
-                <h3> {{$data[0]['title']}} </h3>
-                <small>Bon Jovi</small>
-                <strong>1988</strong>
+                <img src="{{$cd['poster']}}" />
+                <h3>{{$cd['title']}}</h3>
+                <small>{{$cd['author']}}</small>
+                <strong>{{$cd['year']}}</strong>
             </div>
+          @endforeach
         </div>
     </div>
 </body>
