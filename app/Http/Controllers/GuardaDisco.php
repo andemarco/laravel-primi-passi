@@ -64,6 +64,6 @@ class GuardaDisco extends Controller
         'poster' => 'https://images.genius.com/a8692eea3935e5be10d5c4b7d4cd7ab6.1000x1000x1.jpg'
       ]
     ];
-    return view("main", compact('data'));
+    return view("partials.collection", compact('data'));
   }
 }
